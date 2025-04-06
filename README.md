@@ -23,3 +23,5 @@ Saves a checkpoint in the output directory, so if you run it again, only new or 
 A simple MCP server is included so that Claude or other tools can be wired up to the output. Usage
 
 `mcp install mcp.py -v ADVISORY_DIR=/tmp/advisories`
+
+![Screenshot](claude.png)
