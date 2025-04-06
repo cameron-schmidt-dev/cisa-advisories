@@ -109,9 +109,6 @@ async def download(max_pages: int, output_dir: str):
     for advisory in advisories:
         index[advisory["link"]] = advisory
 
-    with open("index.json", "w") as f:
-        json.dump(index, f)
-
 
 @click.command()
 @click.option(
