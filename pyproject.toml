@@ -1,0 +1,18 @@
+[project]
+name = "cisa-advisories"
+version = "0.1.0"
+description = "A script for scraping, parsing and storing CISA advisories to disk."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "click>=8.1.8",
+    "httpcore[asyncio]>=1.0.7",
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+    "markdownify>=1.1.0",
+    "httpcore[asyncio]"
+]
+
+[project.scripts]
+cisa-advisories = "cisa_advisories:cli"
